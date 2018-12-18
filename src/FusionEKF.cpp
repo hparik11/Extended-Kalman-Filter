@@ -14,7 +14,7 @@ using std::vector;
  */
 FusionEKF::FusionEKF() {
 
-  sensor_type = ONLY_RADAR;
+  sensor_type = ALL;
 
   is_initialized_ = false;
 
